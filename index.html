@@ -1,12 +1,66 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade de Grid com animação</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout Grid com Animações</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+    <div class="container">
+        <header class="header">
+            <h1 class="logo">Atividade de Grid com <span class="logo-highlight">Animação</span></h1>
+            <nav class="top-nav">
+                <a href="#" class="top-nav__item">Início</a>
+                <a href="#" class="top-nav__item">Sobre</a>
+                <a href="#" class="top-nav__item">Contato</a>
+            </nav>
+        </header>
+
+    <aside class="sidebar">
+        <h2 class="sidebar__title">Menu</h2>
+        <ul class="menu">
+            <li class="menu__item">
+                <a href="#" class="menu__link">Dashboard</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Relatórios</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Configurações</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Ajuda</a>
+            </li>
+        </ul>
+    </aside>
+
+    <main class="conteudo">
+        <section class="card">
+            <h2 class="card__title">Bem-vindo</h2>
+                <p class="card__text"> Passe o mouse sobre os itens do menu e da navegação para ver as animações, além dos cartões com animações de entrada.
+                </p>
+        </section>
+
+        <section class="cards">
+            <article class="card card--pulse">
+                <h3 class="card__title">Animação 1</h3>
+                <p class="card__text">
+                    Este cartão usa uma animação de pulso.
+                </p>
+            </article>
+            <article class="card card--slide">
+                <h3 class="card__title">Animação 2</h3>
+                <p class="card__text">
+                    Este cartão entra como um slide de baixo para cima.
+                </p>
+            </article>
+        </section>
+    </main>
+
+        <footer class="footer">
+            <p>Vinicius Gardacho - Engenharia de Software 3ºB 2026 - Campo Real</p>
+        </footer>
+    </div>
 </body>
 </html>
