@@ -192,6 +192,18 @@ body {
     overflow: hidden;
 }
 
+.card::before {
+    content: "";
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: rgba(0, 213, 255, 0.18);
+    top: -40px;
+    right: -60px;
+    filter: blur(18px);
+}
+
 .card__title {
     margin: 0 0 0.75rem 0;
     font-weight: 700;
